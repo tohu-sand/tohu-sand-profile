@@ -5,7 +5,7 @@ This repository contains the profile page for 豆腐さんど (@tohu_sand), show
 ## Files
 
 - **index.html**: Main HTML file for the profile page.
-- **icon.png**: Profile icon image. *Copyright of icon.png is reserved.*
+- **icon.png**: Profile icon image. *Copyright of icon.jpg is reserved.*
 - **README.md**: This file.
 
 ## Deployment
