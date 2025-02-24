@@ -60,6 +60,11 @@
       display: block;
       margin: 0 auto 20px;
     }
+    .profile-icon.animate {
+      animation:
+        0.4s linear infinite rotate,
+        3.6s ease-in-out infinite scale;
+    }
     .profile-title {
       font-size: 2em;
       margin-bottom: 10px;
@@ -109,6 +114,23 @@
         white-space: normal;
         word-wrap: break-word;
         overflow-wrap: break-word;
+      }
+    }
+
+    @keyframes rotate {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes scale {
+      28% {
+        scale: 800%;
+      }
+      50% {
+        scale: 10%;
+      }
+      80% {
+        scale: 1000%;
       }
     }
   </style>
@@ -223,6 +245,15 @@
     document.addEventListener("DOMContentLoaded", () => {
       const savedLang = localStorage.getItem("selectedLanguage") || (navigator.language.startsWith("ja") ? "ja" : "en");
       setLanguage(savedLang);
+
+      let iconClicked = 0;
+      const icon = document.querySelector('.profile-icon');
+      icon.addEventListener('click', e => {
+        if (++iconClicked >= 5) {
+          iconClicked = 0;
+          icon.classList.toggle('animate');
+        }
+      })
     });
   </script>
 </body>
