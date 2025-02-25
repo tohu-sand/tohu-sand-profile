@@ -5,6 +5,8 @@ This repository contains the profile page for 豆腐さんど (@tohu_sand), show
 ## Files
 
 - **index.html**: Main HTML file for the profile page.
+- **style.css**: External CSS file containing all styling for the profile page.
+- **script.js**: External JavaScript file for dynamic behavior such as language switching and easter egg,
 - **icon.png**: Profile icon image. *Copyright of icon.jpg is reserved.*
 - **README.md**: This file.
 
