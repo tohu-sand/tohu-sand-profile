@@ -1,7 +1,7 @@
 function setLanguage(lang) {
     document.documentElement.lang = lang;
     document.querySelectorAll("[data-lang-ja]").forEach(el => {
-      el.textContent = lang === "ja" ? el.getAttribute("data-lang-ja") : el.getAttribute("data-lang-en");
+      el.innerHTML = lang === "ja" ? el.getAttribute("data-lang-ja") : el.getAttribute("data-lang-en");
     });
     localStorage.setItem("selectedLanguage", lang);
   }
