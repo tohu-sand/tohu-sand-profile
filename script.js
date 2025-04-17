@@ -3,12 +3,11 @@ function setLanguage(lang) {
     document.querySelectorAll("[data-lang-ja]").forEach(el => {
       el.innerHTML = lang === "ja" ? el.getAttribute("data-lang-ja") : el.getAttribute("data-lang-en");
     });
-    localStorage.setItem("selectedLanguage", lang);
   }
   
   document.addEventListener("DOMContentLoaded", () => {
-    const savedLang = localStorage.getItem("selectedLanguage") || (navigator.language.startsWith("ja") ? "ja" : "en");
-    setLanguage(savedLang);
+    const defaultLang = navigator.language.startsWith("ja") ? "ja" : "en";
+    setLanguage(defaultLang);
   
     let iconClicked = 0;
     const icon = document.querySelector('.profile-icon');
