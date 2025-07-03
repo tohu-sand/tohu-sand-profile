@@ -12,8 +12,8 @@ This repository contains the profile page for 豆腐さんど (@tohu_sand), show
 
 ## Deployment
 
-The profile page is deployed via GitHub Pages and can be accessed at:
-[https://tohu-sand.github.io/tohu-sand-profile/](https://tohu-sand.github.io/tohu-sand-profile/)
+The profile page is deployed via Cloudflare Pages and can be accessed at:
+[https://tohu-sand.com](https://tohu-sand.com)
 
 ## License
 
