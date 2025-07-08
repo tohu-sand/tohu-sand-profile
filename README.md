@@ -8,7 +8,7 @@ This repository contains the profile page for 豆腐さんど (@tohu_sand), show
 - **style.css**: External CSS file containing all styling for the profile page.
 - **script.js**: External JavaScript file for dynamic behavior such as language switching and easter egg,
 - **icon.jpg**: Profile icon image. *Copyright of icon.jpg is reserved.*
-- **public/card.png**: Website card image. *Copyright of card.png is reserved.*
+- **card.png**: Website card image. *Copyright of card.png is reserved.*
 - **README.md**: This file.
 
 ## Deployment
@@ -20,4 +20,4 @@ The profile page is deployed via Cloudflare Pages and can be accessed at:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-*Note:* The [icon image](icon.jpg) and the [card image](public/card.png) is not licensed under MIT, and all rights to the image are reserved by the author.
+*Note:* The [icon image](icon.jpg) and the [card image](card.png) is not licensed under MIT, and all rights to the image are reserved by the author.
